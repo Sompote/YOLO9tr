@@ -51,7 +51,8 @@ Inference
 ```
 python detect_dual.py --source './data/images/horses.jpg' --img 640 --device 0 --weights './yolov9tr.pt' --name yolov9_c_640_detect
 ```
-The file format of data can be use same as YOLOv8 in Roboflow\
+The file format of data can be used the same as YOLOv8 in Roboflow
+
 
 
 
