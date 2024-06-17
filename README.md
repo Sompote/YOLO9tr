@@ -7,10 +7,18 @@ This is the repo for using yolov9 wutj partial attention (PSA)
 AI research Group KMUTT 
 
 
-![Picture11223](https://github.com/Sompote/YOLO9tr/assets/62241733/40d64fae-23ac-46a9-a62b-5f5eb99553a0)
-![Picture11](https://github.com/Sompote/YOLO9tr/assets/62241733/851ad8f3-f92a-43af-a481-c7c83b6e6269)
+<p align="center">
+  <img src="https://github.com/Sompote/YOLO9tr/assets/62241733/40d64fae-23ac-46a9-a62b-5f5eb99553a0" alt="Picture11223"/>
+</p>
+<p align="center">
+  <img src="https://github.com/Sompote/YOLO9tr/assets/62241733/851ad8f3-f92a-43af-a481-c7c83b6e6269" alt="Picture11"/>
+</p>
+<p align="center">
+  <img src="https://github.com/Sompote/YOLO9tr/assets/62241733/902aa180-73fd-422e-985f-28a09166f52f" alt="detect_result"/>
+</p>
 
-![detect_result](https://github.com/Sompote/YOLO9tr/assets/62241733/902aa180-73fd-422e-985f-28a09166f52f)
+
+
 
 ## Deployment
 
