@@ -1,4 +1,4 @@
-# YOLO9tr: Yolo9 with partial attention
+# YOLO9tr: Yolo9 with partial self attention
 This is the repo for using yolov9 with partial attention (PSA) \
 This model was developed to be used in pavement damage detection based on YOLO9s Model.
 
