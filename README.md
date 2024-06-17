@@ -56,12 +56,14 @@ Train with Dual GPU
 Evaluation\
 [YOLO9tr.pt](https://drive.google.com/file/d/1DtXXICCulTPN8DP4HbVLP3T3sk5BP5HI/view?usp=share_link)
 ```
-python val_dual.py --data data/coco.yaml --img 640 --batch 32 --conf 0.001 --iou 0.7 --device 0 --weights './yolov9tr.pt' \
+python val_dual.py --data data/coco.yaml --img 640 --batch 32 --conf 0.001\
+ --iou 0.7 --device 0 --weights './yolov9tr.pt' \
 --save-json --name yolov9_c_640_val
 ```
 Inference
 ```
-python detect_dual.py --source './data/images/horses.jpg' --img 640 --device 0 --weights './yolov9tr.pt' --name yolov9_c_640_detect
+python detect_dual.py --source './data/images/horses.jpg' --img 640 --device 0 \
+--weights './yolov9tr.pt' --name yolov9_c_640_detect
 ```
 The file format of data can be used the same as YOLOv8 in Roboflow
 
