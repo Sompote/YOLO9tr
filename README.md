@@ -31,7 +31,7 @@ pip install -r  requirements.txt
 ```
 
 
-Reccomend to use weight for [YOLO9s](https://github.com/WongKinYiu/yolov9/releases/download/v0.1/yolov9-s.pt) as initial
+Reccomend to use weight for [YOLO9s](https://github.com/WongKinYiu/yolov9/releases/download/v0.1/yolov9-s.pt) as initial training
 
 
 Train with Single GPU
@@ -51,7 +51,10 @@ Train with Dual GPU
 --min-items 0 --epochs 200 --close-mosaic 15
 ```
 
-Evaluation
+
+
+Evaluation\
+[YOLO9t.pt](https://drive.google.com/file/d/1DtXXICCulTPN8DP4HbVLP3T3sk5BP5HI/view?usp=share_link)
 ```
 python val_dual.py --data data/coco.yaml --img 640 --batch 32 --conf 0.001 --iou 0.7 --device 0 --weights './yolov9tr.pt' \
 --save-json --name yolov9_c_640_val
