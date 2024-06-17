@@ -4,8 +4,13 @@ This is the repo for using yolov9 wutj partial attention (PSA)
 ## Authors
 
 -Dr. Sompote Youwai
-AI research Group KMUTT
+AI research Group KMUTT 
 
+
+![Picture11223](https://github.com/Sompote/YOLO9tr/assets/62241733/40d64fae-23ac-46a9-a62b-5f5eb99553a0)
+![Picture11](https://github.com/Sompote/YOLO9tr/assets/62241733/851ad8f3-f92a-43af-a481-c7c83b6e6269)
+
+![detect_result](https://github.com/Sompote/YOLO9tr/assets/62241733/902aa180-73fd-422e-985f-28a09166f52f)
 
 ## Deployment
 
