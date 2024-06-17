@@ -4,7 +4,7 @@ This model was developed to be used in pavement damage detection based on YOLO9s
 
 ## Authors
 
--Dr. Sompote Youwai
+-Dr. Sompote Youwai\
 AI research Group KMUTT 
 
 
