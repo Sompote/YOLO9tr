@@ -1,3 +1,6 @@
+
+import subprocess
+
 import streamlit as st
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
@@ -26,7 +29,7 @@ def run_detection(image_path):
         "--name", "yolov9_c_640_detect",
         "--exist-ok"
     ]
-    subprocess.run(command, check=True)
+    subprocess.run(command, check=True,env=env)
 
     # Find the output image
     output_dir = "runs/detect/yolov9_c_640_detect"
