@@ -12,13 +12,13 @@ from urllib.parse import urlparse
 
 from typing import Optional
 
-#import cv2
-#import numpy as np
-#import pandas as pd
-#import requests
-#import torch
-#import torch.nn as nn
-'''from IPython.display import display
+import cv2
+import numpy as np
+import pandas as pd
+import requests
+import torch
+import torch.nn as nn
+from IPython.display import display
 from PIL import Image
 from torch.cuda import amp
 
@@ -28,7 +28,7 @@ from utils.general import (LOGGER, ROOT, Profile, check_requirements, check_suff
                            increment_path, is_notebook, make_divisible, non_max_suppression, scale_boxes,
                            xywh2xyxy, xyxy2xywh, yaml_load)
 from utils.plots import Annotator, colors, save_one_box
-from utils.torch_utils import copy_attr, smart_inference_mode'''
+from utils.torch_utils import copy_attr, smart_inference_mode
 
 
 def autopad(k, p=None, d=1):  # kernel, padding, dilation

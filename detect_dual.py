@@ -5,7 +5,7 @@ import sys
 from pathlib import Path
 
 
-#import torch
+import torch
 
 FILE = Path(__file__).resolve()
 ROOT = FILE.parents[0]  # YOLO root directory
