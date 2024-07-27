@@ -14,7 +14,6 @@ requests>=2.23.0
 scipy>=1.4.1
 thop>=0.1.1
 opencv-python
-eeewwe
 torch
 torchvision
 tqdm>=4.64.0
