@@ -5,6 +5,7 @@ import subprocess
 import os
 from PIL import Image
 import torch
+import cv2
 
 def add_logo(logo_path, size=(200, 150)):
     logo = Image.open('logoAI.png')
