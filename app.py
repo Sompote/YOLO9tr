@@ -17,7 +17,7 @@ def run_detection(image_path):
         "python", "detect_dual.py",
         "--source", image_path,
         "--img", "640",
-        "--device", "cpu",
+        "--device", "0",
         "--weights", "models/detect/yolov9tr.pt",
         "--name", "yolov9_c_640_detect",
         "--exist-ok"
