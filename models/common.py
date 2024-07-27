@@ -12,7 +12,7 @@ from urllib.parse import urlparse
 
 from typing import Optional
 
-import cv2
+#import cv2
 import numpy as np
 import pandas as pd
 import requests
