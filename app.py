@@ -23,7 +23,7 @@ def run_detection(uploaded_file):
         "--device", "cpu",
         "--weights", "models/detect/yolov9tr.pt",
         "--name", "yolov9_c_640_detect",
-        "--exist", "-ok"
+        "--exist-ok"
     ]
     
     subprocess.run(command, check=True)
