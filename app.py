@@ -4,6 +4,7 @@ import matplotlib.image as mpimg
 import subprocess
 import os
 from PIL import Image
+import torch
 
 def add_logo(logo_path, size=(200, 150)):
     logo = Image.open('logoAI.png')
