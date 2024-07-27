@@ -13,6 +13,9 @@ def add_logo(logo_path, size=(200, 150)):
     st.image(logo, use_column_width=False)
 
 def run_detection(image_path):
+    env = os.environ.copy()
+    env['PYTHONPATH'] = '/mount/src/yolo9tr/' 
+    
     # Run the detection command
     command = [
         "python", "detect_dual.py",
