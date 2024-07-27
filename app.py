@@ -37,11 +37,11 @@ def main():
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
     if uploaded_file is not None:
-        image_path = "temp_image.jpg"
+        image_path = "United_States_000062.jpg"
         with open(image_path, "wb") as f:
             f.write(uploaded_file.getbuffer())
     else:
-        image_path = "temp_image.jpg"  # Default image
+        image_path = "United_States_000062.jpg"  # Default image
 
     st.image(image_path, caption="Image for Detection", use_column_width=True)
 
