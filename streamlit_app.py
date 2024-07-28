@@ -11,7 +11,7 @@ import torch
 import sys
 #import cv2
 
-
+new_env = os.environ.copy()
 def add_logo(logo_path, size=(200, 150)):
     logo = Image.open('logoAI.png')
     logo = logo.resize(size)
@@ -31,7 +31,7 @@ def run_detection(image_path):
         "--name", "yolov9_c_640_detect",
         "--exist-ok"
     ]
-    subprocess.run(command, check=True, env=os.environ)
+    subprocess.run(command, check=True, env=new_env)
 
     # Find the output image
     output_dir = "runs/detect/yolov9_c_640_detect"
