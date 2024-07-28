@@ -9,7 +9,7 @@ import os
 from PIL import Image
 import torch
 import sys
-import cv2
+#import cv2
 
 
 def add_logo(logo_path, size=(200, 150)):
