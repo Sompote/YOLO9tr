@@ -11,6 +11,9 @@ import torch
 import sys
 #import cv2
 
+
+print(sys.path)
+
 def add_logo(logo_path, size=(200, 150)):
     logo = Image.open('logoAI.png')
     logo = logo.resize(size)
