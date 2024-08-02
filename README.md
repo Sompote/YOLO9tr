@@ -28,11 +28,13 @@ Thailand
 </p>
 
 
-## Gradio Space
+## Web App
 
 <img width="1778" alt="Screenshot 2567-07-28 at 17 53 04" src="https://github.com/user-attachments/assets/3939f914-c864-4e86-9069-16935b4f6038">
 https://huggingface.co/spaces/neng123/pavement_damage
 
+
+https://yolo9tr.streamlit.app
 
 ## Deployment
 
