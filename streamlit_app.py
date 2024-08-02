@@ -22,7 +22,7 @@ def run_detection(image_path):
     # Directly call the function from detect_dual.py
     yolo_run_detection(
         source=image_path,
-        imgsz=640,
+        imgsz=(640, 640),
         device="cpu",
         weights="models/detect/yolov9tr.pt",
         name="yolov9_c_640_detect",
