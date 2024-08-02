@@ -33,6 +33,7 @@ Thailand
 <img width="1778" alt="Screenshot 2567-07-28 at 17 53 04" src="https://github.com/user-attachments/assets/3939f914-c864-4e86-9069-16935b4f6038">
 https://huggingface.co/spaces/neng123/pavement_damage
 
+<img width="480" alt="Screenshot 2567-08-02 at 13 21 39" src="https://github.com/user-attachments/assets/f159d363-06c8-4327-b5f0-5612fd0b72b8">
 
 https://yolo9tr.streamlit.app
 
