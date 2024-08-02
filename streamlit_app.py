@@ -26,7 +26,7 @@ def run_detection(image_path):
         device="cpu",
         weights="models/detect/yolov9tr.pt",
         name="yolov9_c_640_detect",
-        exist_ok=False)
+        exist_ok=True)
     #Find the output image
     output_dir = "runs/detect/yolov9_c_640_detect"
     output_image = os.path.join(output_dir, os.path.basename(image_path))
