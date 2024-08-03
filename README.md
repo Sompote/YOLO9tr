@@ -36,7 +36,7 @@ https://huggingface.co/spaces/neng123/pavement_damage
 
 
 
-<img width="480" alt="Screenshot 2567-08-02 at 13 21 39" src="https://github.com/user-attachments/assets/f159d363-06c8-4327-b5f0-5612fd0b72b8">
+![image](https://github.com/user-attachments/assets/fda384e8-435a-49d3-b757-3e53ba3781df)
 
 https://yolo9trv1.streamlit.app
 
